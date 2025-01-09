@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Dropcast - Podcast Template from Codrops</title>
+      <link rel="stylesheet" href="assets/css/dropcast.css">
+      <link rel="author" href="humans.txt">
+      <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Rufina:400,700|Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    </head>
+    <body class="page--detail">
+      <nav>
+        <div class="logo nav__logo">
+          <a href="index.html"><img src="assets/images/logo.svg" alt="logo"/></a>
+        </div>
+        <ul class="nav__list">
+          <li class="nav__item"><a href="">Podcast</a></li>
+        </ul>
+        <ul class="nav__social">
+          <li><a href="#" class="nav_social__item"><i class="fab fa-google-play"></i></a></li>
+          <li><a href="#" class="nav_social__item"><i class="fab fa-itunes-note"></i></a></li>
+          <li><a href="#" class="nav_social__item"><i class="fas fa-rss-square"></i></a></li>
+        </ul>
+      </nav>
+      <section class="site">
+        <div id="site__bg"></div>
+        <div class="left">
+          <label for="" class="site__label">Podcast #1</label>
+          <h1 class="site__title site__title--separator">Linda Watkins</h1>
+        </div>
+        <div class="right">
+          <img src="assets/images/photos/original/1.png" alt="" class="episode__image">
+          <div class="audio-player site__playbar">
+            <div class="loading">
+              <div class="spinner"></div>
+            </div>
+            <button class="play-pause-btn play"></button>
+            <div class="controls">
+              <span class="current-time">0:00</span>
+              <div class="slider" data-direction="horizontal">
+                <div class="progress">
+                  <div class="pin" id="progress-pin" data-method="rewind"></div>
+                </div>
+              </div>
+              <span class="total-time">0:00</span>
+            </div>
+
+            <audio preload="true">
+              <source src="assets/audio/example.ogg" type="audio/ogg" />
+              <source src="assets/audio/example.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+          <h4 class="site__secondary_title">Notes</h4>
+          <p class="site__description">he web development world has gained a lot of momentum over recent years. The increasing dependence on websites has projected this field as a clear step toward career development. According to the US Bureau of Labor Statistics, the employment of web developers and digital designers is expected to grow by 23% from 2021 to 2031. It creates significant popularity of web technologies, attracting more people to explore their options in developer careers.
+
+            Thus, the need for understanding the web ecosystem and web development topics has also grown. While many web designers get a formal education and then enter the practical field, some people start off with a self-learning routine and are completely driven by their interest and passion in web development. There are many online tools that can speed up the learning process.</p>
+          <div class="site__navigation">
+            <!-- toggle on the previous as needed -->
+            <a href="#" class="site__navigation_items site__navigation_items--left hidden">
+              <label for="">Previous Podcast</label>
+              <h4>Dylan Perry</h4>
+            </a>
+            <a href="#" class="site__navigation_items site__navigation_items--right">
+              <label for="">Next Podcast</label>
+              <h4>Dylan Perry</h4>
+            </a>
+          </div>
+        </div>
+      </section>
+      <script src="assets/js/dropcast.js"></script>
+      <script src="assets/js/player.js"></script>
+    </body>
+</html>
